@@ -23,7 +23,7 @@ public class Homepage extends HttpServlet {
     	RequestDispatcher rd=request.getRequestDispatcher("Home.html");
     	rd.include(request, response);
     	out.println("<html><body>"
-    			+ "<h1>hi</h1>"
+    			+ "<h1>hi hello</h1>"
     			+ "</body></html>");
     }
 
